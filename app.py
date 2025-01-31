@@ -108,7 +108,7 @@ students_marks = [
     {"name": "g", "marks": 14},
 ]
 
-students_marks = {student["name"]: student["marks"] for student in students}
+students_marks = {student["name"]: student["marks"] for student in students_marks}
 
 
 @app.route('/api', methods=['GET'])
